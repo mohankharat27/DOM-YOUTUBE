@@ -9,10 +9,32 @@ html, body {
     width: 100%;
 }
 
-ul{
-    padding: 20px;
+main{
+    height: 100%;
+    width: 100%;
 }
 
-/* ul{
-    text-decoration: line-through;
-} */
+#a{
+    height: 80%;
+    width: 80%;
+    background-color: rebeccapurple;
+}
+
+#b{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(33, 142, 42);
+}
+
+#c{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(151, 147, 31);
+}
+
+button{
+    padding: 12px 30px;
+    background-color: crimson;
+    border: none;
+    border-radius: 12px;
+}
