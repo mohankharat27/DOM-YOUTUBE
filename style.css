@@ -10,17 +10,22 @@ html, body {
 }
 
 main{
-    height: 100%;
-    width: 100%;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #555;
+    height: 100%;
+    width: 100%;
 }
 
-h1{
-    font-family: monospace;
-    color: rgb(116, 112, 112);
-    font-size: 200px;
-    font-weight: 100;
+input{
+    display: none;
+}
+
+#btn{
+    padding: 12px 30px;
+    background-color: #50969e;
+    color: white;
+    border: none;
+    border-radius: 15px;
 }
