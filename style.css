@@ -9,23 +9,37 @@ html, body {
     width: 100%;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #555;
+#main{
     height: 100%;
     width: 100%;
 }
 
-input{
-    display: none;
+form{
+    padding: 50px;
+    
 }
 
-#btn{
-    padding: 12px 30px;
-    background-color: #50969e;
-    color: white;
-    border: none;
-    border-radius: 15px;
+input{
+    display: block;
+    margin-top: 5px;
+}
+
+.card{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* width: 100px; */
+}
+
+.profile{
+    height: 30px;
+    width: 30px;
+    border: 2px solid none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile img{
+    height: 100%;
+    width: 100%;
 }
