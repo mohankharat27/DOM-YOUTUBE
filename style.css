@@ -9,8 +9,16 @@ html, body {
     width: 100%;
 }
 
+main{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 .box{
     height: 300px;
     width: 300px;
     background-color: red;
+    position: absolute;
 }

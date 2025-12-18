@@ -1,9 +1,7 @@
 let box = document.querySelector("div")
 
-box.addEventListener("mouseover",function(){
-    box.style.backgroundColor = "yellow";
+window.addEventListener("mousemove",function(dets){
+    box.style.top = dets.clientY + "px";
+    box.style.left = dets.clientX + "px"
 });
 
-box.addEventListener("mouseout",function(){
-    box.style.backgroundColor = "red";
-});
