@@ -1,7 +1,5 @@
-let box = document.querySelector("div")
+let ul = document.querySelector("ul")
 
-window.addEventListener("mousemove",function(dets){
-    box.style.top = dets.clientY + "px";
-    box.style.left = dets.clientX + "px"
-});
-
+ul.addEventListener("click",function(dets){
+    dets.target.style.textDecoration =  "line-through";
+})

@@ -9,16 +9,10 @@ html, body {
     width: 100%;
 }
 
-main{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+ul{
+    padding: 20px;
 }
 
-.box{
-    height: 300px;
-    width: 300px;
-    background-color: red;
-    position: absolute;
-}
+/* ul{
+    text-decoration: line-through;
+} */
